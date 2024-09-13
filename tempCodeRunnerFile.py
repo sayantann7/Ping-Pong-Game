@@ -1,4 +1,3 @@
-if ballX>370:
-        #     ballXChange = 0.1
-        # if ballX<370:
-        #     ballXChange = -0/1
+
+screen = pygame.display.set_mode((screenSize))
+running = True
