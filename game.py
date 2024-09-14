@@ -23,7 +23,7 @@ gameOver = False
 winner = 1
 
 shootMusic = pygame.mixer.Sound('assets/bullet.mp3')
-shootMusic.set_volume(0.3)
+shootMusic.set_volume(1.0)
 
 rakcet1IMG = pygame.transform.scale(pygame.image.load('assets/rakcet.png'),(10,80))
 racket1X = 0
@@ -97,7 +97,7 @@ welcome()
 
 while running:
     screen.fill((0,0,0))
-    pygame.mixer.music.set_volume(1.0)
+    pygame.mixer.music.set_volume(0.6)
 
     if gameOver:
         game_over()
